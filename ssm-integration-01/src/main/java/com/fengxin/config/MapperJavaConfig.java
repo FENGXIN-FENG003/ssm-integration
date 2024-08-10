@@ -43,7 +43,7 @@ public class MapperJavaConfig {
         properties.setProperty ("helperDialect","mysql");
         interceptor.setProperties (properties);
         //  1.
-        sqlSessionFactoryBean.addPlugins ();
+        sqlSessionFactoryBean.addPlugins (interceptor);
         
         return sqlSessionFactoryBean;
     }

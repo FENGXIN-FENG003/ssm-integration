@@ -30,12 +30,4 @@ public class WebMvcJavaConfig implements WebMvcConfigurer {
     public void configureDefaultServletHandling (DefaultServletHandlerConfigurer configurer) {
         configurer.enable ();
     }
-    
-    // /**
-    //  * 拦截器
-    //  */
-    // @Override
-    // public void addInterceptors (InterceptorRegistry registry) {
-    //     registry.addInterceptor ("");
-    // }
 }
