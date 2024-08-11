@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>  
   <parent> 
     <groupId>com.fengxin</groupId>  
-    <artifactId>ssm-integration-part</artifactId>  
+    <artifactId>ssm-integration</artifactId>
     <version>1.0-SNAPSHOT</version> 
   </parent>  
   <artifactId>ssm-integration-01</artifactId>  
